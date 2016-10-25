@@ -20,8 +20,8 @@
 		8E66419C1DB8703200CF3126 /* TabbarControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E66419B1DB8703200CF3126 /* TabbarControllerDemoUITests.m */; };
 		8E6641B01DB8720800CF3126 /* HLBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6641AF1DB8720800CF3126 /* HLBadgeLabel.m */; };
 		8E6641B51DB8A50700CF3126 /* HLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6641B41DB8A50700CF3126 /* HLTabBar.m */; };
-		8E6641B81DB8A56300CF3126 /* HLTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6641B71DB8A56300CF3126 /* HLTabBarItem.m */; };
-		8E6641BF1DB8A58600CF3126 /* HLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6641BE1DB8A58600CF3126 /* HLTabBarController.m */; };
+		8E917F211DBF2E5700F23D34 /* HLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E917F1D1DBF2E5700F23D34 /* HLTabBarController.m */; };
+		8E917F221DBF2E5700F23D34 /* HLTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E917F201DBF2E5700F23D34 /* HLTabBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,10 +68,10 @@
 		8E6641AF1DB8720800CF3126 /* HLBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBadgeLabel.m; sourceTree = "<group>"; };
 		8E6641B31DB8A50700CF3126 /* HLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTabBar.h; sourceTree = "<group>"; };
 		8E6641B41DB8A50700CF3126 /* HLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTabBar.m; sourceTree = "<group>"; };
-		8E6641B61DB8A56300CF3126 /* HLTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTabBarItem.h; sourceTree = "<group>"; };
-		8E6641B71DB8A56300CF3126 /* HLTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTabBarItem.m; sourceTree = "<group>"; };
-		8E6641BD1DB8A58600CF3126 /* HLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTabBarController.h; sourceTree = "<group>"; };
-		8E6641BE1DB8A58600CF3126 /* HLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTabBarController.m; sourceTree = "<group>"; };
+		8E917F1C1DBF2E5700F23D34 /* HLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTabBarController.h; sourceTree = "<group>"; };
+		8E917F1D1DBF2E5700F23D34 /* HLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTabBarController.m; sourceTree = "<group>"; };
+		8E917F1F1DBF2E5700F23D34 /* HLTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTabBarItem.h; sourceTree = "<group>"; };
+		8E917F201DBF2E5700F23D34 /* HLTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTabBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,9 @@
 			isa = PBXGroup;
 			children = (
 				8E6641AB1DB8711700CF3126 /* HLTabBar */,
+				8E917F1E1DBF2E5700F23D34 /* HLTabbarItem */,
 				8E6641AA1DB8711700CF3126 /* HLBadgeLabel */,
+				8E917F1B1DBF2E5700F23D34 /* HLTabbarController */,
 			);
 			path = Element;
 			sourceTree = "<group>";
@@ -191,13 +193,27 @@
 			children = (
 				8E6641B31DB8A50700CF3126 /* HLTabBar.h */,
 				8E6641B41DB8A50700CF3126 /* HLTabBar.m */,
-				8E6641B61DB8A56300CF3126 /* HLTabBarItem.h */,
-				8E6641B71DB8A56300CF3126 /* HLTabBarItem.m */,
-				8E6641BD1DB8A58600CF3126 /* HLTabBarController.h */,
-				8E6641BE1DB8A58600CF3126 /* HLTabBarController.m */,
 			);
 			name = HLTabBar;
 			path = HLTabbar;
+			sourceTree = "<group>";
+		};
+		8E917F1B1DBF2E5700F23D34 /* HLTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				8E917F1C1DBF2E5700F23D34 /* HLTabBarController.h */,
+				8E917F1D1DBF2E5700F23D34 /* HLTabBarController.m */,
+			);
+			path = HLTabbarController;
+			sourceTree = "<group>";
+		};
+		8E917F1E1DBF2E5700F23D34 /* HLTabbarItem */ = {
+			isa = PBXGroup;
+			children = (
+				8E917F1F1DBF2E5700F23D34 /* HLTabBarItem.h */,
+				8E917F201DBF2E5700F23D34 /* HLTabBarItem.m */,
+			);
+			path = HLTabbarItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,16 +353,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E917F211DBF2E5700F23D34 /* HLTabBarController.m in Sources */,
 				8E6641B01DB8720800CF3126 /* HLBadgeLabel.m in Sources */,
 				8E6641B51DB8A50700CF3126 /* HLTabBar.m in Sources */,
 				8E585E7B1DB9C54700F3CBBD /* HLViewControllerThree.m in Sources */,
-				8E6641B81DB8A56300CF3126 /* HLTabBarItem.m in Sources */,
+				8E917F221DBF2E5700F23D34 /* HLTabBarItem.m in Sources */,
 				8E585E751DB9C53100F3CBBD /* HLViewControllerOne.m in Sources */,
 				8E66417B1DB8703100CF3126 /* AppDelegate.m in Sources */,
 				8E585E7E1DB9C55600F3CBBD /* HLViewControllerFour.m in Sources */,
 				8E585E781DB9C53D00F3CBBD /* HLViewControllerTwo.m in Sources */,
 				8E6641781DB8703100CF3126 /* main.m in Sources */,
-				8E6641BF1DB8A58600CF3126 /* HLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
