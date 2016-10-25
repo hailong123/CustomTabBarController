@@ -349,7 +349,7 @@
 }
 
 #pragma mark - private method
-
+//MARK:这里通过改变badgeValue的数值来决定自定义tabbar上数值显示的类型 -1 显示NEW -2 显示红点
 - (void)refreshBadgeValue {
     
     NSInteger messageCount = 0;
@@ -358,7 +358,7 @@
     
     for (item in _tabBar.items) {
         
-        item.badgeValue = 55;
+        item.badgeValue = -2;
     }
     
 }
