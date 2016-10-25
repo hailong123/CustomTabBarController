@@ -3,7 +3,7 @@
 >###支持自定义背景图
 >###支持自定义图标
 >###支持 显示消息数量及红点显示
-![demo.gif]
+
 >###使用
     HLViewControllerOne *one     = [[HLViewControllerOne alloc] init];
     HLViewControllerTwo *two     = [HLViewControllerTwo   new];
